@@ -4,7 +4,7 @@ Simple address book API built with FastAPI and SQLite
 
 ## Setup & Running
 
-1. Create and activate a virtual environment:
+1. Create and activate a virtual environment
 
 ```bash
 # macOS / Linux
@@ -16,13 +16,13 @@ python -m venv venv
 venv\Scripts\activate
 ```
 
-2. Install dependencies:
+2. Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Run the application:
+3. Run the application
 
 ```bash
 uvicorn app.main:app --reload
@@ -33,7 +33,7 @@ Interactive Swagger documentation is available at http://127.0.0.1:8000/docs
 
 ## Running Tests
 
-Run the test suite with:
+Run the test suite with
 
 ```bash
 python -m unittest discover tests
