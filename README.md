@@ -1,6 +1,6 @@
 # Address Book API
 
-Simple address book API built with FastAPI and SQLite.
+Simple address book API built with FastAPI and SQLite
 
 ## Setup & Running
 
@@ -28,8 +28,8 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload
 ```
 
-The database (`addressbook.db`) will be created automatically on startup.
-Interactive Swagger documentation is available at http://127.0.0.1:8000/docs.
+The database (`addressbook.db`) will be created automatically on startup
+Interactive Swagger documentation is available at http://127.0.0.1:8000/docs
 
 ## Running Tests
 
